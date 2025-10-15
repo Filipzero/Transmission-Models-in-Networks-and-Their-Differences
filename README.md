@@ -1,1 +1,1 @@
-# Transmission-Models-in-Networks-and-their-differences
+# Transmission-Models-in-Networks-and-Their-Differences
