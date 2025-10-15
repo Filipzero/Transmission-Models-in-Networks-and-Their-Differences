@@ -1,0 +1,6 @@
+numpy
+networkx
+EoN
+matplotlib
+scipy
+pandas
