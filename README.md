@@ -31,4 +31,19 @@ $$ Transition\ from\ susceptible\ to\ infected. Full\ conversion\ occurs,\ as\ p
 
 The SIS model describes a population that is divided into two compartments: Susceptible(S) and Infected (I). The difference between the SI model is that the infected individuals can recover and return to the susceptible state, allowing reinfection.
 
-The
+The dynamics here will change taking into account the reinfection:
+
+$$ \frac{dS}{dt} = -\frac{β S I}{N} + γΙ $$
+$$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
+
+where:
+* γ is the rate at which infected individuals return to the susceptible state.
+<img width="1184" height="739" alt="image CVSOE3" src="https://github.com/user-attachments/assets/53b54594-1132-4e13-ac9d-d0a66a32b58e" />
+
+$$ Transition\ from\ susceptible\ to\ infected. The system reaches a stable balance between S-I with an infection rate β=0.3 and "recovery" rate γ=0.1. $$
+
+
+
+
+
+
