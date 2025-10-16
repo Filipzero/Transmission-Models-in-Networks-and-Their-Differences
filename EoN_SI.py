@@ -136,12 +136,13 @@ plt.show()
 #        "t": report_times,
 #        "S_mean": S_means,
 #        "I_mean": I_means
-        }
+#        }
 
 #df_SI = pd.DataFrame(data)
 #print(df)
 
 #df_SI.to_csv('./SI.csv', sep=';', index=False) # if ';' doesn't work then ','
+
 
 
 
