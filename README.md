@@ -19,4 +19,7 @@ $$ \frac{dS}{dt} = -\frac{β S I}{N} $$
 $$ \frac{dI}{dt} = \frac{β S I}{N} $$
 
 where:
-* ds/dt 
+* S(t) is the number of susceptible individuals at time t
+* I(t) is the number of infected individuals at time t
+* N is the total population, which remains constant (S+I=N)
+* β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.  
