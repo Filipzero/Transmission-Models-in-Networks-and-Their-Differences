@@ -24,7 +24,7 @@ where:
 * N is the total population, which remains constant (S+I=N)
 * β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.  
 <img width="1175" height="695" alt="image UCRTE3" src="https://github.com/user-attachments/assets/8107b70c-684a-4a32-b440-4ab6e92cb68c" />
-
+Flow from susceptible to infected. Full conversion occurs, as predicted by the ODEs, for N=10,000 and β=0.3.
 ### SIS (Susceptible-Infected-Susceptible)
 
 The SIS model describes a population that is divided into two compartments: Susceptible(S) and Infected (I). The difference between the SI model is that the infected individuals can recover and return to the susceptible state, allowing reinfection.
