@@ -7,7 +7,7 @@ The models describe a population divided into compartments (depending on the epi
 
 * As a **mean-field ODE approximation**, which assumes homogeneous mixing of the population and describes the evolution of the proportions of susceptible and infected individuals over time. The total population N is assumed constant, so S(t)+I(t)=N, or in terms of proportions, s(t)+i(t)=1.
 
-* As a **stochastic network-based simulation** using the Gillespie algorithm, which accounts for discrete individuals and network structure, allowing for variability and local effects of infection spread.
+* As a **stochastic network-based simulation** using the Gillespie algorithm, which accounts for discrete individuals and network structure, allowing for variability and local effects of infection spread, while keeping the total population fixed at N.
 
 ### S-I (Susceptible-Infected)
 
@@ -17,3 +17,5 @@ The dynamics of this model can be described by the following mean-field ODEs:
 
 $$ \frac{dS}{dt} = -\frac{β S I}{N} $$
 $$ \frac{dI}{dt} = \frac{β S I}{N} $$
+where:
+* ds/dt 
