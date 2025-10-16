@@ -14,5 +14,5 @@ The SI model describes a population that is divided into two compartments: Susce
 
 The dynamics of this model can be described by the following meand-field ODEs:
 $$
-\frac{dS}{dt} = -\beta S I
+frac{dS}{dt} = -\beta S I
 $$
