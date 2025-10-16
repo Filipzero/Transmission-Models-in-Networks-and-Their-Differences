@@ -13,14 +13,4 @@ The models describe a population divided into compartments (depending on the epi
 The SI model describes a population that is divided into two compartments: Susceptible(S) and Infected (I). Susceptible individuals can become infected and thus infectious through contact with another individual who has the disease and they remain infected forever.
 
 The dynamics of this model can be described by the following mean-field ODEs:
-𝑑𝑆
-−𝛽𝑆𝐼
-=
-𝑑𝑡
-𝑁
-3.5
-𝑑𝐼
-𝛽𝑆𝐼
-=
-𝑑𝑡
-𝑁
+$$ s $$
