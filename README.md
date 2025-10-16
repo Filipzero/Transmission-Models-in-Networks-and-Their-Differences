@@ -17,5 +17,6 @@ The dynamics of this model can be described by the following mean-field ODEs:
 
 $$ \frac{dS}{dt} = -\frac{β S I}{N} $$
 $$ \frac{dI}{dt} = \frac{β S I}{N} $$
+
 where:
 * ds/dt 
