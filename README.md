@@ -5,6 +5,7 @@ This repository is built in Python, featuring six epidemiological models impleme
 
 The models are implemented both:
 
-* As a mean-field ODE approximation, which assumes homogeneous mixing of the population and describes the evolution of the proportions of susceptible and infected individuals over time.
+* As a **mean-field ODE approximation**, which assumes homogeneous mixing of the population and describes the evolution of the proportions of susceptible and infected individuals over time.
+* As a **stochastic network-based simulation** using the Gillespie algorithm, which accounts for discrete individuals and network structure, allowing for variability and local effects of infection spread.
 
-* As a stochastic network-based simulation using the Gillespie algorithm, which accounts for discrete individuals and network structure, allowing for variability and local effects of infection spread.
+### SI
