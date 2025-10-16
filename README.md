@@ -5,7 +5,8 @@ This repository is built in Python, featuring six epidemiological models impleme
 
 The models describe a population divided into compartments (depending on the epidemic model) and are implemented in two ways:
 
-* As a **mean-field ODE approximation**, which assumes homogeneous mixing of the population and describes the evolution of the proportions of susceptible and infected individuals over time. Note that the population in these models are always constant.
+* As a **mean-field ODE approximation**, which assumes homogeneous mixing of the population and describes the evolution of the proportions of susceptible and infected individuals over time. The total population N is assumed constant, so S(t)+I(t)=N, or in terms of proportions, s(t)+i(t)=1.
+
 * As a **stochastic network-based simulation** using the Gillespie algorithm, which accounts for discrete individuals and network structure, allowing for variability and local effects of infection spread.
 
 ### S-I (Susceptible-Infected)
