@@ -9,7 +9,7 @@ The models describe a population divided into compartments (depending on the epi
 
 * As a **stochastic network-based simulation** using the Gillespie algorithm, which accounts for discrete individuals and network structure, allowing for variability and local effects of infection spread, while keeping the total population fixed at N.
 
-### S-I (Susceptible-Infected)
+### SI (Susceptible-Infected)
 
 The SI model describes a population that is divided into two compartments: Susceptible(S) and Infected (I). Susceptible individuals can become infected and thus infectious through contact with another individual who has the disease and they remain infected forever.
 
@@ -23,3 +23,10 @@ where:
 * I(t) is the number of infected individuals at time t
 * N is the total population, which remains constant (S+I=N)
 * β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.  
+<img width="1175" height="695" alt="image UCRTE3" src="https://github.com/user-attachments/assets/8107b70c-684a-4a32-b440-4ab6e92cb68c" />
+
+### SIS (Susceptible-Infected-Susceptible)
+
+The SIS model describes a population that is divided into two compartments: Susceptible(S) and Infected (I). The difference between the SI model is that the infected individuals can recover and return to the susceptible state, allowing reinfection.
+
+The
