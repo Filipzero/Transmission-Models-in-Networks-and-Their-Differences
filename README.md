@@ -175,21 +175,27 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
 ## Output and Visualization
 |  ![SI](https://github.com/user-attachments/assets/c782074c-332b-4431-aef6-a7916e6bcfc8) | ![SIS](https://github.com/user-attachments/assets/ab0af7e6-c40e-460d-b088-a345e7bc0020) |
-|----------------------|----------------------|
-| ![Image 3](img3.png) | ![Image 4](img4.png) |
+|--------------------------------------------------|--------------------------------------------------|
+| *SI*      | *SIS*               |
+| ![SIR](https://github.com/user-attachments/assets/e99e7110-b55d-4874-aada-47dd1b3c40b9) | ![SIRS](https://github.com/user-attachments/assets/796de0fc-88e2-4142-abc6-e74a14045d87) |
+|--------------------------------------------------|--------------------------------------------------|
+| *SIR model: disease spread over time*           | *SIRS model: reinfection allowed*               |
 
 
 
 
 
+SIR
+<img width="7084" height="4334" alt="Merge3" src="https://github.com/user-attachments/assets/e99e7110-b55d-4874-aada-47dd1b3c40b9" />
 
+SIRS
+<img width="7084" height="4334" alt="Merge4" src="https://github.com/user-attachments/assets/796de0fc-88e2-4142-abc6-e74a14045d87" />
 
+SEIR
+<img width="7084" height="4334" alt="Merge5" src="https://github.com/user-attachments/assets/128f73be-4bdf-4b15-a5c5-4d4defde66d5" />
 
-
-
-
-
-
+SEIRS
+<img width="3076" height="1830" alt="Merge6" src="https://github.com/user-attachments/assets/25bbf5a7-f814-43c9-9a9c-2fed099532c0" />
 
 
 
