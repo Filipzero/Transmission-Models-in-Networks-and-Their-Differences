@@ -1,10 +1,27 @@
 # Disease Transmission Models in Networks and Their Differences
 This repository is built in Python, featuring six epidemiological models implemented on four different underlying networks. The epidemiological compartmental models used, are SI, SIS, SIR, SIRS, SEIR, SEIRS and the underlying networks are Erdős–Rényi, Watts-Strogatz, Barabási–Albert and finally a 2x2 lattice. Each simulation provides the results of individual stochastic runs as well as their averaged outcome across multiple simulations. These averages are then compared with the predictions of the corresponding deterministic (mean-field) ODE model. The simulations were carried out with the EoN (Epidemics on Networks) library, which employs the Gillespie stochastic algorithm and the networks were created with the NetworkX library. 
 
-# 12. Dependencies / Requirements
+# 1. Requirements
 This project requires Python 3.8+ and the libraries listed in requirements.txt.
 
-## Compartmental Model Description
+# 2. How to Run the Simulation
+1. Clone or download the project repository.
+2. Make sure the libraries in the requirements.txt file are installed
+3. Run a script using an IDE or the terminal like so :
+   python3 EoN_SI.py
+4. Optional: Adjust simulation parameters in the script before running, such as:
+
+    Network size (N)
+
+    Infection rate (beta)
+
+    Simulation duration (t_max)
+
+    Number of simulations (num_simulations)
+
+The script will display plots of the SI model and optionally save results to CSV if enabled.
+
+## 3. Compartmental Model Description
 
 The models describe a population divided into compartments (depending on the epidemic model) and are implemented in two ways:
 
