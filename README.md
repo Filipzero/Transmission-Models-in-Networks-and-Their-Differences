@@ -234,5 +234,6 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 5. **Conclusion**
 
    While the overall qualitative behaviors observed in the simulations (e.g., influence of network topology on infection dynamics) are generally consistent across parameter ranges, the exact numerical results such as infection peaks, epidemic             duration, and steady-state levels, depend sensitively on the specific parameter values chosen for β, γ, and other rates.
+
    All in all, the analysis underscores that network-based epidemic simulations bridge the gap between theoretical modeling and real-world complexity.
    They demonstrate that even identical epidemiological parameters can yield dramatically different outcomes depending on network structure and stochastic interactions, reinforcing the importance of topology-aware modeling in epidemiological research.
