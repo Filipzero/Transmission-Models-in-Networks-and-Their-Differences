@@ -54,5 +54,5 @@ The mean-field ODEs:
 
 $$ \frac{dS}{dt} = -\frac{β S I}{N} $$
 $$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
-$$ \frac{dR}{dt} = -\frac{γI}{N} $$
+$$ \frac{dR}{dt} = \γI $$
 
