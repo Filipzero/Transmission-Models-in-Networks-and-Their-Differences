@@ -46,7 +46,7 @@ The following parameters are used across the models:
 | σ      | Progression rate from exposed to infectious (SEIR, SEIRS) |
 | ω      | Waning immunity rate (SIRS, SEIRS) |
 
-The models describe a population divided into compartments (depending on the epidemic model) and are implemented in two ways:
+The models describe a population divided into X compartments (depending on the epidemic model) and are implemented in two ways:
 
 * As a **mean-field ODE approximation**, which assumes homogeneous mixing of the population and describes the evolution of the proportions of susceptible and infected individuals over time. The total population N is assumed constant, so S(t)+I(t)=N, or in terms of proportions, s(t)+i(t)=1.
 
