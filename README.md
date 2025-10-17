@@ -56,3 +56,34 @@ $$ \frac{dS}{dt} = -\frac{β S I}{N} $$
 $$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
 $$ \frac{dR}{dt} = γI $$
 
+where:
+* S(t) is the number of susceptible individuals at time t
+* I(t) is the number of infected individuals at time t
+* R(t) is the number of recovered individuals at time t
+* β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.  
+* γ, in this specific model represents the recovery rate of an infected individual. In other words, people recover from the infection and acquire immunity.
+<img width="1171" height="703" alt="image SRKUE3" src="https://github.com/user-attachments/assets/b5633ce1-3dc6-4ba6-b131-374ffeebaaee" />
+
+$$ Susceptibles\ become\ infected\ and\ then\ recover.\ With\ parameters\ β=0.3\ and\ γ=0.1, we\ can\ see\ that\ not\ the\ entire\ population\ becomes\ infected.\ Some\ remain\ susceptible\ and\ thats\ why\ the\ recovered\ curve\ does\ not\ reach\ 1. $$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
