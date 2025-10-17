@@ -90,9 +90,6 @@ $$ \frac{dS}{dt} = -\frac{β S I}{N} $$
 $$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
 $$ \frac{dR}{dt} = γI $$
 
-where:
-* R(t) is the number of recovered individuals at time t
-* γ, in this specific model represents the recovery rate of an infected individual. In other words, people recover from the infection and acquire immunity.
 <img width="1171" height="703" alt="image SRKUE3" src="https://github.com/user-attachments/assets/b5633ce1-3dc6-4ba6-b131-374ffeebaaee" />
 
 $$ Susceptibles\ become\ infected\ and\ then\ recover.\ With\ parameters\ β=0.3\ and\ γ=0.1, we\ can\ see\ that\ not\ the\ entire\ population\ becomes\ infected.\ Some\ remain\ susceptible\ and\ thats\ why\ the\ recovered\ curve\ does\ not\ reach\ 1. $$
@@ -107,8 +104,6 @@ $$ \frac{dS}{dt} = -\frac{β S I}{N} + ωR $$
 $$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
 $$ \frac{dR}{dt} = γI -ωR $$
 
-where:
-* ω is the rate at which the immunity wanes.
 <img width="1180" height="732" alt="image 82ZOE3" src="https://github.com/user-attachments/assets/230d67ef-2479-4693-8c3e-69b4008e14d1" />
 
 $$ We\ clearly\ see\ that\ the\ system\ reaches\ a\ stable\ balance\ between\ S-I-R (β=0.3,\ γ=0.1,\ ω=0.05\).\ Note\ that\ if\ we\ had\ different\ rates\ the\ system\ would\ still\ reach\ equilibrium\ but\ the\ peak\ values\ would\ differ. $$
@@ -124,9 +119,6 @@ $$ \frac{dΕ}{dt} = \frac{β S I}{N} -σΕ $$
 $$ \frac{dΙ}{dt} = σE - γI $$
 $$ \frac{dR}{dt} = γI $$
 
-where:
-* E(t) is the number of exposed individuals at time t
-* σ is the rate at which exposed individuals become infectious (i.e., the inverse of the incubation period).
 <img width="1179" height="732" alt="image HTASE3" src="https://github.com/user-attachments/assets/bb4db37e-0d2b-4a47-a956-3eec4bb612a9" />
 
 $$ Parameters\ given:\ β=0.3,\ σ=0.2,\ γ=0.1.\ The\ system's\ dynamics\ change,\ making\ the\ infectious\ state\ progress\ slower. $$
@@ -140,8 +132,6 @@ $$ \frac{dΕ}{dt} = \frac{β S I}{N} -σΕ $$
 $$ \frac{dΙ}{dt} = σE - γI $$
 $$ \frac{dR}{dt} = γI - ωR $$
 
-where:
-* ω is the rate at which the immunity wanes.
 <img width="1176" height="731" alt="image ZCOUE3" src="https://github.com/user-attachments/assets/312420a5-8627-4eff-b2e1-304fc38189e6" />
 
 $$ Parameters\ given:\ β=0.3,\ σ=0.2,\ γ=0.1, ω=0.05.\ Similar\ final\ state\ to\ that\ of\ the\ other\ models\ with\ waning\ immunity. $$
