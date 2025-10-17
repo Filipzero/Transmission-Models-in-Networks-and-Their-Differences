@@ -46,8 +46,13 @@ where:
 
 $$ Transition\ from\ susceptible\ to\ infected.\ The\ system\ reaches\ a\ stable\ balance\ between\ S-I\ with\ an\ infection\ rate\ β=0.3\ and\ "recovery"\ rate\ γ=0.1. $$
 
+### SIR (Susceptible-Infected-Recovered)
 
+The population is divided in three compartments this time, meaning that an individual can transistion through three stages: Susceptible(S), Infected(I) and Recovered(R).
 
+The mean-field ODEs:
 
-
+$$ \frac{dS}{dt} = -\frac{β S I}{N} $$
+$$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
+$$ \frac{dR}{dt} = -\frac{γI}{N} $$
 
