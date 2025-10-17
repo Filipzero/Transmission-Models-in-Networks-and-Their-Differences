@@ -75,7 +75,7 @@ $$ \frac{dS}{dt} = -\frac{β S I}{N} + γΙ $$
 $$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
 
 where:
-* γ is the rate at which infected individuals return to the susceptible state.
+* γ is the rate at which infected individuals return to the susceptible state (**different from the other γ parameters in the other models**).
 <img width="1184" height="739" alt="image CVSOE3" src="https://github.com/user-attachments/assets/53b54594-1132-4e13-ac9d-d0a66a32b58e" />
 
 $$ Transition\ from\ susceptible\ to\ infected.\ The\ system\ reaches\ a\ stable\ balance\ between\ S-I\ with\ an\ infection\ rate\ β=0.3\ and\ "recovery"\ rate\ γ=0.1. $$
