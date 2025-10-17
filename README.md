@@ -192,7 +192,13 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 | ![SEIR](https://github.com/user-attachments/assets/128f73be-4bdf-4b15-a5c5-4d4defde66d5) | ![SEIRS](https://github.com/user-attachments/assets/25bbf5a7-f814-43c9-9a9c-2fed099532c0) |
 
 ## Simulation Analysis and Insights
+1. Comparison Between ODE and Network-Based Models
+The simulations revealed that while ODE-based models capture the overall population-level dynamics effectively, network-based models provide a more realistic and granular understanding of disease propagation.
+Local interactions and network heterogeneity introduce fluctuations that are absent in the continuous, deterministic ODE approach.
 
+In smaller networks, stochastic effects are more pronounced, leading to greater deviations from the ODE curves.
+
+As network size increases, the simulation results tend to align more closely with the ODE predictions.
 
 
 
