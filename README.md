@@ -182,12 +182,12 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
 | SIR | SIRS |
 |-----|------|
-| ![SIR](https://github.com/user-attachments/assets/e99e7110-b55d-4874-aada-47dd1b3c40b9) | ![SIRS](https://github.com/user-attachments/assets/796de0fc-88e2-4142-abc6-e74a14045d87)|
+| ![SIR](https://github.com/user-attachments/assets/e99e7110-b55d-4874-aada-47dd1b3c40b9) | ![SIRS](https://github.com/user-attachments/assets/796de0fc-88e2-4142-abc6-e74a14045d87) |
 
 
 | SEIR | SEIRS |
 |------|-------|
-| ![SEIR](https://github.com/user-attachments/assets/128f73be-4bdf-4b15-a5c5-4d4defde66d5) | <img src="https://github.com/user-attachments/assets/25bbf5a7-f814-43c9-9a9c-2fed099532c0" width="5000"> |
+| ![SEIR](https://github.com/user-attachments/assets/128f73be-4bdf-4b15-a5c5-4d4defde66d5) | ![SEIRS](https://github.com/user-attachments/assets/25bbf5a7-f814-43c9-9a9c-2fed099532c0) |
 
 
 
