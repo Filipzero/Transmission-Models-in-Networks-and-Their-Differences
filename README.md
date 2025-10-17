@@ -193,17 +193,45 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
 ## Simulation Analysis and Insights
 1. Comparison Between ODE and Network-Based Models
-The simulations revealed that while ODE-based models capture the overall population-level dynamics effectively, network-based models provide a more realistic and granular understanding of disease propagation.
-Local interactions and network heterogeneity introduce fluctuations that are absent in the continuous, deterministic ODE approach.
 
-In smaller networks, stochastic effects are more pronounced, leading to greater deviations from the ODE curves.
+   The simulations revealed that while ODE-based models capture the overall population-level dynamics effectively, network-based models provide a more realistic and granular understanding of disease propagation.
+   Local interactions and network heterogeneity introduce fluctuations that are absent in the continuous, deterministic ODE approach.
 
-As network size increases, the simulation results tend to align more closely with the ODE predictions.
+   * In smaller networks, stochastic effects are more pronounced, leading to greater deviations from the ODE curves.
 
+   * As network size increases, the simulation results tend to align more closely with the ODE predictions.
 
+2. Impact of Network Topology
 
+   Different network structures significantly influence the speed and extent of disease spread:
 
+   * Grid Network: Infection spreads locally and gradually due to limited connectivity.
 
+   * Erdős–Rényi (Random Graph): The uniform random connectivity results in a faster but relatively predictable spread.
 
+   * Watts–Strogatz (Small-World Network): The presence of shortcuts accelerates transmission while maintaining clustering, creating realistic epidemic dynamics.
 
+   * Barabási–Albert (Scale-Free Network): Highly connected hubs act as super-spreaders, leading to rapid initial outbreaks and longer epidemic tails.
 
+3. Insights Across Epidemiological Models
+
+   * SI Model: Demonstrates the role of connectivity in the exponential growth phase of infections.
+
+   * SIS Model: Shows equilibrium states where infection persists depending on recovery and transmission rates.
+
+   * SIR / SIRS Models: Capture epidemic peaks followed by recovery or reinfection cycles, highlighting how immunity duration affects outcomes.
+
+   * SEIR / SEIRS Models: The latent (exposed) phase delays infection peaks but preserves overall trends across network types.
+
+4. Key Observations
+
+   * Networks with high degree variance (e.g., scale-free) tend to sustain infections longer and require targeted vaccination strategies for effective containment.
+
+   * Reinfection dynamics (in SIRS and SEIRS) amplify the effect of network topology — especially in clustered networks.
+
+   * Heterogeneity in contact structure is crucial for accurate epidemic modeling and should not be neglected in large-scale simulations.
+
+5. Conclusion
+
+   The analysis underscores that network-based epidemic simulations bridge the gap between theoretical modeling and real-world complexity.
+   They demonstrate that even identical epidemiological parameters can yield dramatically different outcomes depending on network structure and stochastic interactions — reinforcing the importance of topology-aware modeling in epidemiological research.
