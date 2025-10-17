@@ -39,7 +39,6 @@ $$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
 where:
 * S(t) is the number of susceptible individuals at time t
 * I(t) is the number of infected individuals at time t
-* N is the total population, which remains constant (S+I=N)
 * β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.  
 * γ is the rate at which infected individuals return to the susceptible state.
 <img width="1184" height="739" alt="image CVSOE3" src="https://github.com/user-attachments/assets/53b54594-1132-4e13-ac9d-d0a66a32b58e" />
@@ -66,14 +65,26 @@ where:
 
 $$ Susceptibles\ become\ infected\ and\ then\ recover.\ With\ parameters\ β=0.3\ and\ γ=0.1, we\ can\ see\ that\ not\ the\ entire\ population\ becomes\ infected.\ Some\ remain\ susceptible\ and\ thats\ why\ the\ recovered\ curve\ does\ not\ reach\ 1. $$
 
+### SIRS (Susceptible-Infected-Recovered)
 
+The population remains divided in three compartments, but as in the SIS and SI models reinfection is possible. The immunity that they gained can now be lost over time.
 
+The ODEs of this compartmental models are:
 
+$$ \frac{dS}{dt} = -\frac{β S I}{N} + ωR $$
+$$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
+$$ \frac{dR}{dt} = γI -ωR $$
 
+where:
+* S(t) is the number of susceptible individuals at time t
+* I(t) is the number of infected individuals at time t
+* R(t) is the number of recovered individuals at time t
+* β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.
+* γ is the recovery rate.
+* ω is the rate at which the immunity wanes.
+<img width="1180" height="732" alt="image 82ZOE3" src="https://github.com/user-attachments/assets/230d67ef-2479-4693-8c3e-69b4008e14d1" />
 
-
-
-
+$$ We\ clearly\ see\ that\ the\ system\ reaches\ a\ stable\ balance\ between\ S-I-R.\ Note\ that\ if\ we\ had\ different\ rates\ other\ than\ β=0.3,\ γ=0.1,\ ω=0.05\ we\ would\ still\ have\ the\ stable\ balance,\ but\ different\ peaks. $$
 
 
 
