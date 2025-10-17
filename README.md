@@ -4,12 +4,12 @@ This repository is built in Python, featuring six epidemiological models impleme
 1. [Requirements](#1-requirements)
 2. [How to Run the Simulation](#2-how-to-run-the-simulation)
 3. [Compartmental Model Description](#3-compartmental-model-description)
-  - [SI](#si-susceptible-infected)
-  - [SIS](#sis-susceptible-infected)
-  - [SIR](#sir-susceptible-infected-recovered)
-  - [SIRS](#sirs-susceptible-infected-recovered)
-  - [SEIR](#seir-susceptible-exposed-infected-recovered)
-  - [SEIRS](#seirs-suscpetible-exposed-infected-recovered)
+   - [SI](#si-susceptible-infected)
+   - [SIS](#sis-susceptible-infected)
+   - [SIR](#sir-susceptible-infected-recovered)
+   - [SIRS](#sirs-susceptible-infected-recovered)
+   - [SEIR](#seir-susceptible-exposed-infected-recovered)
+   - [SEIRS](#seirs-suscpetible-exposed-infected-recovered)
 
 # 1. Requirements
 This project requires Python 3.8+ and the libraries listed in requirements.txt.
