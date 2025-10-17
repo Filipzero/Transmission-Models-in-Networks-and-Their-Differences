@@ -215,13 +215,13 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
 3. **Insights Across Epidemiological Models**
 
-   * SI Model: Demonstrates the role of connectivity in the exponential growth phase of infections.
+   * SI: Demonstrates the role of connectivity in the exponential growth phase of infections.
 
-   * SIS Model: Shows equilibrium states where infection persists depending on recovery and transmission rates.
+   * SIS: Shows equilibrium states where infection persists depending on recovery and transmission rates.
 
-   * SIR / SIRS Models: Capture epidemic peaks followed by recovery or reinfection cycles, highlighting how immunity duration affects outcomes.
+   * SIR / SIRS: Capture epidemic peaks followed by recovery or reinfection cycles, highlighting how immunity duration affects outcomes.
 
-   * SEIR / SEIRS Models: The latent (exposed) phase delays infection peaks but preserves overall trends across network types.
+   * SEIR / SEIRS: The latent (exposed) phase delays infection peaks but preserves overall trends across network types.
 
 4. **Observations**
 
@@ -233,7 +233,7 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
 5. **Conclusion**
 
-   While the overall qualitative behaviors observed in the simulations (e.g., influence of network topology on infection dynamics) are generally consistent across parameter ranges, the exact numerical results such as infection peaks, epidemic             duration, and steady-state levels, depend sensitively on the specific parameter values chosen for β, γ, and other rates.
+   While the qualitative behaviors found across the simulations like influence of network topology in the spreading of a disease are generally consistent across parameter ranges, the exact numerical values such as infection peaks, epidemic duration, and steady-state levels, are extremely sensitive to the specific parameter values chosen for β, γ, and the other rates.
 
-   All in all, the analysis underscores that network-based epidemic simulations bridge the gap between theoretical modeling and real-world complexity.
-   They demonstrate that even identical epidemiological parameters can yield dramatically different outcomes depending on network structure and stochastic interactions, reinforcing the importance of topology-aware modeling in epidemiological research.
+   All in all, the analysis shows that network-based epidemic simulations differ from the mathematical models as they take into consideration the contact per unit per time bridging the gap between mathematical modeling and real-world complexity.
+   They demonstrate that even if we have identical epidemiological parameters they can yield dramatically different outcomes depending on network structure and stochastic interactions, reinforcing the importance of the underlying topology that a disease is spread.
