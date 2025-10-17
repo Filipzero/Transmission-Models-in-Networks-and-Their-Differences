@@ -187,7 +187,7 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
 | SEIR | SEIRS |
 |------|-------|
-| ![SEIR](https://github.com/user-attachments/assets/128f73be-4bdf-4b15-a5c5-4d4defde66d5)| ![SEIRS](https://github.com/user-attachments/assets/25bbf5a7-f814-43c9-9a9c-2fed099532c0) |
+| ![SEIR](https://github.com/user-attachments/assets/128f73be-4bdf-4b15-a5c5-4d4defde66d5) | ![SEIRS](https://github.com/user-attachments/assets/25bbf5a7-f814-43c9-9a9c-2fed099532c0) |
 
 
 
