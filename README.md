@@ -135,3 +135,26 @@ $$ \frac{dR}{dt} = γI - ωR $$
 <img width="1176" height="731" alt="image ZCOUE3" src="https://github.com/user-attachments/assets/312420a5-8627-4eff-b2e1-304fc38189e6" />
 
 $$ Parameters\ given:\ β=0.3,\ σ=0.2,\ γ=0.1,\ ω=0.05.\ Similar\ final\ state\ to\ that\ of\ the\ other\ models\ with\ waning\ immunity. $$
+
+## Graph Topologies
+
+1. Erdős–Rényi (Random) Network
+
+   * Each pair of nodes is connected with a fixed probability p.
+   * Useful for studying random interactions in large populations.
+
+2. Watts–Strogatz (Small-World) Network
+
+   * Nodes are initially connected in a regular lattice, with some edges randomly rewired.
+   * Captures real-world networks with high clustering and short path lengths.
+
+3. Barabási–Albert (Scale-Free) Network
+
+   * Nodes are added sequentially with preferential attachment, resulting in hubs.
+   * Reflects networks with heterogeneous connectivity, like social or contact networks.
+
+4. Grid Network (Optional)
+
+   * Nodes are placed on a 2D lattice with periodic boundary conditions (the edges “wrap around,” so corner nodes can interact across the boundary).
+
+Each network type can influence the dynamics of disease spread, affecting infection speed and final outbreak size.
