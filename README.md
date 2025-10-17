@@ -192,7 +192,7 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 | ![SEIR](https://github.com/user-attachments/assets/128f73be-4bdf-4b15-a5c5-4d4defde66d5) | ![SEIRS](https://github.com/user-attachments/assets/25bbf5a7-f814-43c9-9a9c-2fed099532c0) |
 
 ## Simulation Analysis and Insights
-1. Comparison Between ODE and Network-Based Models
+1. **Comparison Between ODE and Network-Based Models**
 
    The simulations revealed that while ODE-based models capture the overall population-level dynamics effectively, network-based models provide a more realistic and granular understanding of disease propagation.
    Local interactions and network heterogeneity introduce fluctuations that are absent in the continuous, deterministic ODE approach.
@@ -201,7 +201,7 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
    * As network size increases, the simulation results tend to align more closely with the ODE predictions.
 
-2. Impact of Network Topology
+2. **Impact of Network Topology**
 
    Different network structures significantly influence the speed and extent of disease spread:
 
@@ -213,7 +213,7 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
    * Barabási–Albert (Scale-Free Network): Highly connected hubs act as super-spreaders, leading to rapid initial outbreaks and longer epidemic tails.
 
-3. Insights Across Epidemiological Models
+3. **Insights Across Epidemiological Models**
 
    * SI Model: Demonstrates the role of connectivity in the exponential growth phase of infections.
 
@@ -223,7 +223,7 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
    * SEIR / SEIRS Models: The latent (exposed) phase delays infection peaks but preserves overall trends across network types.
 
-4. Key Observations
+4. **Observations**
 
    * Networks with high degree variance (e.g., scale-free) tend to sustain infections longer and require targeted vaccination strategies for effective containment.
 
@@ -231,7 +231,7 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
    * Heterogeneity in contact structure is crucial for accurate epidemic modeling and should not be neglected in large-scale simulations.
 
-5. Conclusion
+5. **Conclusion**
 
    The analysis underscores that network-based epidemic simulations bridge the gap between theoretical modeling and real-world complexity.
    They demonstrate that even identical epidemiological parameters can yield dramatically different outcomes depending on network structure and stochastic interactions — reinforcing the importance of topology-aware modeling in epidemiological research.
