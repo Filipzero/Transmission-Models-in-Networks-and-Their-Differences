@@ -227,7 +227,7 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
    * Networks with high degree variance (e.g., scale-free) tend to sustain infections longer and require targeted vaccination strategies for effective containment.
 
-   * Reinfection dynamics (in SIRS and SEIRS) amplify the effect of network topology — especially in clustered networks.
+   * Reinfection dynamics (in SIRS and SEIRS) amplify the effect of network topology, especially in clustered networks.
 
    * Heterogeneity in contact structure is crucial for accurate epidemic modeling and should not be neglected in large-scale simulations.
 
