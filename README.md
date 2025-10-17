@@ -11,10 +11,10 @@ This repository is built in Python, featuring six epidemiological models impleme
    - [SEIR](#seir-susceptible-exposed-infected-recovered)
    - [SEIRS](#seirs-suscpetible-exposed-infected-recovered)
 
-## 1. Requirements
+## Requirements
 This project requires Python 3.8+ and the libraries listed in requirements.txt.
 
-## 2. How to Run the Simulation
+## How to Run the Simulation
 1. Clone or download the project repository.
 2. Make sure the libraries in the requirements.txt file are installed
 3. Run a script using an IDE or the terminal like so :
@@ -30,7 +30,7 @@ This project requires Python 3.8+ and the libraries listed in requirements.txt.
 
 5. The scripts will display plots of the SI, SIS, SIR, SIRS, SEIR, SEIRS models and optionally save results to CSV if enabled.
 
-## 3. Compartmental Model Description
+## Compartmental Model Description
 
 The models describe a population divided into compartments (depending on the epidemic model) and are implemented in two ways:
 
@@ -66,9 +66,6 @@ $$ \frac{dS}{dt} = -\frac{β S I}{N} + γΙ $$
 $$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
 
 where:
-* S(t) is the number of susceptible individuals at time t
-* I(t) is the number of infected individuals at time t
-* β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.  
 * γ is the rate at which infected individuals return to the susceptible state.
 <img width="1184" height="739" alt="image CVSOE3" src="https://github.com/user-attachments/assets/53b54594-1132-4e13-ac9d-d0a66a32b58e" />
 
@@ -85,10 +82,7 @@ $$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
 $$ \frac{dR}{dt} = γI $$
 
 where:
-* S(t) is the number of susceptible individuals at time t
-* I(t) is the number of infected individuals at time t
 * R(t) is the number of recovered individuals at time t
-* β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.  
 * γ, in this specific model represents the recovery rate of an infected individual. In other words, people recover from the infection and acquire immunity.
 <img width="1171" height="703" alt="image SRKUE3" src="https://github.com/user-attachments/assets/b5633ce1-3dc6-4ba6-b131-374ffeebaaee" />
 
@@ -105,11 +99,6 @@ $$ \frac{dI}{dt} = \frac{β S I}{N} -γI $$
 $$ \frac{dR}{dt} = γI -ωR $$
 
 where:
-* S(t) is the number of susceptible individuals at time t
-* I(t) is the number of infected individuals at time t
-* R(t) is the number of recovered individuals at time t
-* β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.
-* γ is the recovery rate.
 * ω is the rate at which the immunity wanes.
 <img width="1180" height="732" alt="image 82ZOE3" src="https://github.com/user-attachments/assets/230d67ef-2479-4693-8c3e-69b4008e14d1" />
 
@@ -127,12 +116,7 @@ $$ \frac{dΙ}{dt} = σE - γI $$
 $$ \frac{dR}{dt} = γI $$
 
 where:
-* S(t) is the number of susceptible individuals at time t
 * E(t) is the number of exposed individuals at time t
-* I(t) is the number of infected individuals at time t
-* R(t) is the number of recovered individuals at time t
-* β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.
-* γ is the recovery rate.
 * σ is the rate at which exposed individuals become infectious (i.e., the inverse of the incubation period).
 <img width="1179" height="732" alt="image HTASE3" src="https://github.com/user-attachments/assets/bb4db37e-0d2b-4a47-a956-3eec4bb612a9" />
 
@@ -148,13 +132,6 @@ $$ \frac{dΙ}{dt} = σE - γI $$
 $$ \frac{dR}{dt} = γI - ωR $$
 
 where:
-* S(t) is the number of susceptible individuals at time t
-* E(t) is the number of exposed individuals at time t
-* I(t) is the number of infected individuals at time t
-* R(t) is the number of recovered individuals at time t
-* β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.
-* γ is the recovery rate.
-* σ is the rate at which exposed individuals become infectious (i.e., the inverse of the incubation period).
 * ω is the rate at which the immunity wanes.
 <img width="1176" height="731" alt="image ZCOUE3" src="https://github.com/user-attachments/assets/312420a5-8627-4eff-b2e1-304fc38189e6" />
 
