@@ -160,3 +160,29 @@ $$ Parameters\ given:\ β=0.3,\ σ=0.2,\ γ=0.1,\ ω=0.05.\ Similar\ final\ stat
    * Nodes are placed on a 2D lattice with periodic boundary conditions (the edges “wrap around,” so corner nodes can interact across the boundary).
 
 Each network type can influence the dynamics of disease spread, affecting infection speed and final outbreak size.
+
+## Simulation Details
+The simulations for the disease spreading in networks were implemented using the [EoN](https://epidemicsonnetworks.readthedocs.io/en/latest/EoN.html) library. The algorithm that is used simulates the transitions between compartments by following a stochastic process for selecting the next event in time. More specifically, we will describe how the algorithm operates for the SIR model, with only minor differences for other models.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
