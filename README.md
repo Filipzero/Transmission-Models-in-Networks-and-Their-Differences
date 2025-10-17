@@ -174,8 +174,9 @@ If not, an infection event is selected instead. In that case, it must determine 
 An alternative approach is to define a fixed maximum infection rate **$r^*$** greater than or equal to the actual maximum infection rate among all nodes **$r_u$** thereby increasing the total rate **Τ**. When a transmission is scheduled to occur, the algorithm randomly selects a susceptible node whose real infection rate is less than or equal to **$r^*$** . However, since it temporarily overestimated the infection probabilities, it generates a new random number **p∈(0, 1)**; if **p < ($r_u$ / $r^*$)** , the infection of node u is accepted. Otherwise, the time advances to the next event without a change.
 
 ## Output and Visualization
-|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-|                                    *SI*                                                 |                                           *SIS*                                         |
+
+| SI | SIS |
+|----|-----|
 |  ![SI](https://github.com/user-attachments/assets/c782074c-332b-4431-aef6-a7916e6bcfc8) | ![SIS](https://github.com/user-attachments/assets/ab0af7e6-c40e-460d-b088-a345e7bc0020) |
 
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
