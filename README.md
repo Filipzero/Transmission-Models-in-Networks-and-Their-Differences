@@ -161,8 +161,16 @@ $$ Parameters\ given:\ β=0.3,\ σ=0.2,\ γ=0.1,\ ω=0.05.\ Similar\ final\ stat
 
 Each network type can influence the dynamics of disease spread, affecting infection speed and final outbreak size.
 
-## Simulation Details
+## Gillespie algorithm
 The simulations for the disease spreading in networks were implemented using the [EoN](https://epidemicsonnetworks.readthedocs.io/en/latest/EoN.html) library. The algorithm that is used simulates the transitions between compartments by following a stochastic process for selecting the next event in time. More specifically, we will describe how the algorithm operates for the SIR model, with only minor differences for other models.
+
+The algorithm begins by calculating the transition rates. Each susceptible node has a probability of becoming infected depending on how many infected neighbors it has. That is, if a node has one infected neighbor, its infection rate is **τ** (the transmission rate per edge), while if it has two infected neighbors, the rate becomes **2τ**, and so on. The probability that an infected node recovers is constant and independent of what happens around it. From these, we obtain the total rate **Τ**, which is the sum of all infection and recovery rates in the network.
+
+The algorithm having computed the total rate, it must now decide when the next event will occur and what that event will be. The time until the next event is drawn from an exponential distribution with rate **T**. This means that if **T** is large, an event will occur soon, while if **Τ** is small, it will occur later. The following step for the algorithm is to select which event takes place, with a probability proportional to its rate. Since all recoveries occur at the same constant rate, the total recovery rate is **γI** and the probability that the next event is a recovery equals **γI/Τ**. Therefore, if a recovery occurs, we choose a random infected node to recover.
+
+If not, an infection event is selected instead. In that case, it must determine which susceptible node becomes infected, with probabilities proportional to their individual infection rates. The complication here is that these rates differ among nodes, unlike the constant recovery rate, because each susceptible node’s risk depends on how many infected neighbors it has. To handle this, we can draw a random number **r∈(0, T−γI)** and iterate over all susceptible nodes, subtracting their infection rate from **r** until it becomes negative. The node that causes this to happen is the one that becomes infected.
+
+An alternative approach is to define a fixed maximum infection rate $r^*$
 
 
 
