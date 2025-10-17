@@ -84,7 +84,7 @@ where:
 * ω is the rate at which the immunity wanes.
 <img width="1180" height="732" alt="image 82ZOE3" src="https://github.com/user-attachments/assets/230d67ef-2479-4693-8c3e-69b4008e14d1" />
 
-$$ We\ clearly\ see\ that\ the\ system\ reaches\ a\ stable\ balance\ between\ S-I-R.\ Note\ that\ if\ we\ had\ different\ rates\ other\ than\ β=0.3,\ γ=0.1,\ ω=0.05\ we\ would\ still\ have\ the\ stable\ balance,\ but\ different\ peaks. $$
+$$ We\ clearly\ see\ that\ the\ system\ reaches\ a\ stable\ balance\ between\ S-I-R (β=0.3,\ γ=0.1,\ ω=0.05\).\ Note\ that\ if\ we\ had\ different\ rates\ the\ system\ would\ still\ reach\ equilibrium\ the\ stable\ balance,\ but\ different\ peaks. $$
 
 
 
