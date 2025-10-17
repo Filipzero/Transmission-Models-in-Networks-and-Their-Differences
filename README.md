@@ -176,10 +176,10 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 ## Output and Visualization
 |  ![SI](https://github.com/user-attachments/assets/c782074c-332b-4431-aef6-a7916e6bcfc8) | ![SIS](https://github.com/user-attachments/assets/ab0af7e6-c40e-460d-b088-a345e7bc0020) |
 |--------------------------------------------------|--------------------------------------------------|
-|                                  $$ *SI* $$      | $$ *SIS* $$                                      |
+|                                  *SI*      | *SIS*                                     |
 | ![SIR](https://github.com/user-attachments/assets/e99e7110-b55d-4874-aada-47dd1b3c40b9) | ![SIRS](https://github.com/user-attachments/assets/796de0fc-88e2-4142-abc6-e74a14045d87) |
 |--------------------------------------------------|--------------------------------------------------|
-| $$ *SIR* $$                                      | $$ *SIRS* $$                                     |
+|  *SIR*                                    |*SIRS*                                   |
 
 
 
