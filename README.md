@@ -4,9 +4,9 @@ This repository is built in Python, featuring six epidemiological models impleme
 1. [Requirements](#1-requirements)
 2. [How to Run the Simulation](#2-how-to-run-the-simulation)
 3. [Compartmental Model Description](#3-compartmental-model-description)
-   - [SI](#si)
-   - [SIS](#sis)
-   - [SIR](#sir)
+   - [SI](#si-susceptible-infected)
+   - [SIS](#sis-susceptible-infected)
+   - [SIR](#sir-susceptible-infected-recovered)
    - [SIRS](#sirs)
    - [SEIR](#seir)
    - [SEIRS](#seirs)
@@ -56,7 +56,7 @@ where:
 
 $$ Transition\ from\ susceptible\ to\ infected. Full\ conversion\ occurs,\ as\ predicted\ by\ the\ ODEs,\ for\ N=10,000\ and\ β=0.3. $$
 
-### SIS (Susceptible-Infected-Susceptible)
+### SIS (Susceptible-Infected)
 
 The SIS model describes a population that is divided into two compartments: Susceptible(S) and Infected (I). The difference between the SI model is that the infected individuals can recover and return to the susceptible state, allowing reinfection.
 
