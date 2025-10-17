@@ -11,15 +11,14 @@ This project requires Python 3.8+ and the libraries listed in requirements.txt.
    python3 EoN_SI.py
 4. Optional: Adjust simulation parameters in the script before running, such as:
 
+    Network type (G)
     Network size (N)
-
     Infection rate (beta)
-
     Simulation duration (t_max)
-
     Number of simulations (num_simulations)
+    Other related parameters
 
-The script will display plots of the SI model and optionally save results to CSV if enabled.
+5. The scripts will display plots of the SI, SIS, SIR, SIRS, SEIR, SEIRS models and optionally save results to CSV if enabled.
 
 ## 3. Compartmental Model Description
 
