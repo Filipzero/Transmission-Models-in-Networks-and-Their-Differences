@@ -11,10 +11,10 @@ This repository is built in Python, featuring six epidemiological models impleme
    - [SEIR](#seir-susceptible-exposed-infected-recovered)
    - [SEIRS](#seirs-suscpetible-exposed-infected-recovered)
 
-# 1. Requirements
+## 1. Requirements
 This project requires Python 3.8+ and the libraries listed in requirements.txt.
 
-# 2. How to Run the Simulation
+## 2. How to Run the Simulation
 1. Clone or download the project repository.
 2. Make sure the libraries in the requirements.txt file are installed
 3. Run a script using an IDE or the terminal like so :
