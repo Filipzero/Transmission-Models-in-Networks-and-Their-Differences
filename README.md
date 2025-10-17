@@ -13,6 +13,8 @@ This repository is built in Python, featuring six epidemiological models impleme
    - [SEIRS](#seirs-suscpetible-exposed-infected-recovered)
 4. [Graph Topologies](#graph-topologies)
 5. [Gillespie Algorithm](#gillespie-algorithm)
+6. [Plots](#plots)
+7. [Simulation Interpration](#simulation-interpretation)
 
 ## Requirements
 This project requires Python 3.8+ and the libraries listed in requirements.txt.
@@ -173,7 +175,7 @@ If not, an infection event is selected instead. In that case, it must determine 
 
 An alternative approach is to define a fixed maximum infection rate **$r^*$** greater than or equal to the actual maximum infection rate among all nodes **$r_u$** thereby increasing the total rate **Τ**. When a transmission is scheduled to occur, the algorithm randomly selects a susceptible node whose real infection rate is less than or equal to **$r^*$** . However, since it temporarily overestimated the infection probabilities, it generates a new random number **p∈(0, 1)**; if **p < ($r_u$ / $r^*$)** , the infection of node u is accepted. Otherwise, the time advances to the next event without a change.
 
-## Output and Visualization
+## Plots
 
 | SI | SIS |
 |----|-----|
@@ -189,7 +191,7 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 |------|-------|
 | ![SEIR](https://github.com/user-attachments/assets/128f73be-4bdf-4b15-a5c5-4d4defde66d5) | ![SEIRS](https://github.com/user-attachments/assets/25bbf5a7-f814-43c9-9a9c-2fed099532c0) |
 
-
+## Simulation Interpretasion
 
 
 
