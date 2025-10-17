@@ -12,6 +12,7 @@ This repository is built in Python, featuring six epidemiological models impleme
    - [SEIR](#seir-susceptible-exposed-infected-recovered)
    - [SEIRS](#seirs-suscpetible-exposed-infected-recovered)
 4. [Graph Topologies](#graph-topologies)
+5. [Gillespie Algorithm](#gillespie-algorithm)
 
 ## Requirements
 This project requires Python 3.8+ and the libraries listed in requirements.txt.
