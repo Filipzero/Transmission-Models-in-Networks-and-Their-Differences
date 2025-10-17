@@ -84,17 +84,49 @@ where:
 * ω is the rate at which the immunity wanes.
 <img width="1180" height="732" alt="image 82ZOE3" src="https://github.com/user-attachments/assets/230d67ef-2479-4693-8c3e-69b4008e14d1" />
 
-$$ We\ clearly\ see\ that\ the\ system\ reaches\ a\ stable\ balance\ between\ S-I-R (β=0.3,\ γ=0.1,\ ω=0.05\).\ Note\ that\ if\ we\ had\ different\ rates\ the\ system\ would\ still\ reach\ equilibrium\ the\ stable\ balance,\ but\ different\ peaks. $$
+$$ We\ clearly\ see\ that\ the\ system\ reaches\ a\ stable\ balance\ between\ S-I-R (β=0.3,\ γ=0.1,\ ω=0.05\).\ Note\ that\ if\ we\ had\ different\ rates\ the\ system\ would\ still\ reach\ equilibrium\ but\ the\ peak\ values\ would\ differ. $$
 
+### SEIR (Susceptible-Exposed-Infected-Recovered)
 
+In this model a new compartment is introduced. It accounts for a latent period (E) before individuals become infectious. Individuals first enter an exposed state, during which they are infected but not yet infectious, before progressing to the infectious stage.
 
+For the ODEs we get:
 
+$$ \frac{dS}{dt} = -\frac{β S I}{N} $$
+$$ \frac{dΕ}{dt} = \frac{β S I}{N} -σΕ $$
+$$ \frac{dΙ}{dt} = σE - γI $$
+$$ \frac{dR}{dt} = γI $$
 
+where:
+* S(t) is the number of susceptible individuals at time t
+* E(t) is the number of exposed individuals at time t
+* I(t) is the number of infected individuals at time t
+* R(t) is the number of recovered individuals at time t
+* β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.
+* γ is the recovery rate.
+* σ is the rate at which exposed individuals become infectious (i.e., the inverse of the incubation period).
+<img width="1179" height="732" alt="image HTASE3" src="https://github.com/user-attachments/assets/bb4db37e-0d2b-4a47-a956-3eec4bb612a9" />
 
+$$ Parameters\ given:\ β=0.3,\ σ=0.2,\ γ=0.1.\ The\ system's\ dynamics\ change,\ making\ the\ infectious\ state\ progress\ slower. $$
 
+### SEIRS (Susceptible-Exposed-Infected-Recovered)
 
+This model allows waning immunity, making reinfection possible, so its ODEs will be:
 
+$$ \frac{dS}{dt} = -\frac{β S I}{N} +ωR $$
+$$ \frac{dΕ}{dt} = \frac{β S I}{N} -σΕ $$
+$$ \frac{dΙ}{dt} = σE - γI $$
+$$ \frac{dR}{dt} = γI - ωR $$
 
+where:
+* S(t) is the number of susceptible individuals at time t
+* E(t) is the number of exposed individuals at time t
+* I(t) is the number of infected individuals at time t
+* R(t) is the number of recovered individuals at time t
+* β is the infection rate, representing the probability per unit time that a susceptible individual becomes infected upon contact with an infected individual.
+* γ is the recovery rate.
+* σ is the rate at which exposed individuals become infectious (i.e., the inverse of the incubation period).
+* ω is the rate at which the immunity wanes.
+<img width="1176" height="731" alt="image ZCOUE3" src="https://github.com/user-attachments/assets/312420a5-8627-4eff-b2e1-304fc38189e6" />
 
-
-
+$$ Parameters\ given:\ β=0.3,\ σ=0.2,\ γ=0.1, ω=0.05.\ Similar\ final\ state\ to\ that\ of\ the\ other\ models\ with\ waning\ immunity. $$
