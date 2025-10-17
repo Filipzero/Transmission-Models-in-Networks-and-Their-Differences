@@ -234,4 +234,4 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 5. **Conclusion**
 
    The analysis underscores that network-based epidemic simulations bridge the gap between theoretical modeling and real-world complexity.
-   They demonstrate that even identical epidemiological parameters can yield dramatically different outcomes depending on network structure and stochastic interactions — reinforcing the importance of topology-aware modeling in epidemiological research.
+   They demonstrate that even identical epidemiological parameters can yield dramatically different outcomes depending on network structure and stochastic interactions, reinforcing the importance of topology-aware modeling in epidemiological research.
