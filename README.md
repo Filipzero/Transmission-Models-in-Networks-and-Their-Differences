@@ -32,6 +32,20 @@ This project requires Python 3.8+ and the libraries listed in requirements.txt.
 
 ## Compartmental Model Description
 
+The following parameters are used across the models:
+
+| Symbol | Description |
+|--------|-------------|
+| N      | Total population (constant) |
+| S(t)   | Number of susceptible individuals at time t |
+| I(t)   | Number of infected individuals at time t |
+| R(t)   | Number of recovered individuals at time t (if applicable) |
+| E(t)   | Number of exposed individuals at time t (if applicable) |
+| β      | Infection rate: probability per unit time that a susceptible individual becomes infected upon contact with an infected individual |
+| γ      | Recovery rate: rate at which infected individuals recover (SIR, SIRS, SEIR, SEIRS) | 
+| σ      | Progression rate from exposed to infectious (SEIR, SEIRS) |
+| ω      | Waning immunity rate (SIRS, SEIRS) |
+
 The models describe a population divided into compartments (depending on the epidemic model) and are implemented in two ways:
 
 * As a **mean-field ODE approximation**, which assumes homogeneous mixing of the population and describes the evolution of the proportions of susceptible and infected individuals over time. The total population N is assumed constant, so S(t)+I(t)=N, or in terms of proportions, s(t)+i(t)=1.
