@@ -10,7 +10,7 @@ This repository is built in Python, featuring six epidemiological models impleme
    - [SIR](#sir-susceptible-infected-recovered)
    - [SIRS](#sirs-susceptible-infected-recovered)
    - [SEIR](#seir-susceptible-exposed-infected-recovered)
-   - [SEIRS](#seirs-suscpetible-exposed-infected-recovered)
+   - [SEIRS](#seirs-susceptible-exposed-infected-recovered)
 4. [Graph Topologies](#graph-topologies)
 5. [Gillespie Algorithm](#gillespie-algorithm)
 6. [Plots](#plots)
