@@ -175,21 +175,39 @@ An alternative approach is to define a fixed maximum infection rate **$r^*$** gr
 
 ## Output and Visualization
 
-| SI | SIS |
-|----|-----|
-|  ![SI](https://github.com/user-attachments/assets/c782074c-332b-4431-aef6-a7916e6bcfc8) | ![SIS](https://github.com/user-attachments/assets/ab0af7e6-c40e-460d-b088-a345e7bc0020) |
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/c782074c-332b-4431-aef6-a7916e6bcfc8" width="400">
+    <br><em>SI model</em>
+  </div>
 
-| SIR | SIRS |
-|-----|------|
-| ![SIR](https://github.com/user-attachments/assets/e99e7110-b55d-4874-aada-47dd1b3c40b9) | ![SIRS](https://github.com/user-attachments/assets/796de0fc-88e2-4142-abc6-e74a14045d87)|
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/ab0af7e6-c40e-460d-b088-a345e7bc0020" width="400">
+    <br><em>SIS model</em>
+  </div>
 
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/e99e7110-b55d-4874-aada-47dd1b3c40b9" width="400">
+    <br><em>SIR model</em>
+  </div>
 
-| SEIR | SEIRS |
-|------|------|
-| ![SEIR](https://github.com/user-attachments/assets/128f73be-4bdf-4b15-a5c5-4d4defde66d5) | ![SEIRS](https://github.com/user-attachments/assets/25bbf5a7-f814-43c9-9a9c-2fed099532c0)|
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/796de0fc-88e2-4142-abc6-e74a14045d87" width="400">
+    <br><em>SIRS model</em>
+  </div>
 
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/128f73be-4bdf-4b15-a5c5-4d4defde66d5" width="400">
+    <br><em>SEIR model</em>
+  </div>
 
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/25bbf5a7-f814-43c9-9a9c-2fed099532c0" width="400">
+    <br><em>SEIRS model</em>
+  </div>
+
+</div>
 
 
 
